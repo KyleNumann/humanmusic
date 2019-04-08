@@ -89,6 +89,7 @@
 	</div><!-- .site-header-menu -->
 
 	<div class="header-actions">
+		<a href="/about" class="header-link"><?php echo get_the_title('2'); ?></a>
 		<a href="#main-contact-form" class="button lightbox-inline">Contact Us</a>
 	</div>
 

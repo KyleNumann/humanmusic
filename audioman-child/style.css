@@ -27,12 +27,31 @@ body * {
 #masthead .site-branding .site-identity {
 	display:none !important;
 }
-@media screen and (max-width:550px){
+.header-actions .header-link {
+	padding:0.5em 1em;
+}
+
+@media screen and (max-width:767px){
+	#masthead .site-branding .custom-logo {
+		max-width:170px;
+	}
+}
+@media screen and (max-width:570px){
 	#masthead .site-header-main .wrapper {
 		padding:0.5em 1em !important;
+		align-items: flex-start;
 	}
 	#masthead .site-branding .custom-logo {
-		max-width:120px;
+		max-width:130px;
+	}
+	.header-actions {
+		display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+	}
+	.header-actions .header-link {
+		padding-right:0;
+		margin-top:0.5em;
 	}
 }
 
